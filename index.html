@@ -5,51 +5,224 @@
     <link rel="stylesheet" href="style.css"/>
     <title>Front Prueba</title>
   </head>
+  <style>A {text-decoration: none;}
+  </style>
+
   <body>
-    <h2>Workshop 1</h2>
-    <div class="menu">
-      <nav class="menu_principal">
-      <ul class="menu_navegacion">
-        <li><a href="#"> Inicio</a>
-        </li>
-        <li><a href="#"> Servicio</a></li>
-        <li><a href="#"> Noticias</a></li>
-        <li><a href="#"> Equipo</a></li>
+
+    <section id="Cabeza" class="header">
+
+      <div class="header-menu">
+        <h1 class="titulo">Workshop 1</h1>
+
+
+      <ul class="menu-opciones">
+        <li class="menu-opciones__elemento"><a href="#Cabeza">Inicio</a></li>
+        <li class="menu-opciones__elemento"><a href="#Servicios-web">Servicios</a></li>
+        <li class="menu-opciones__elemento"><a href="#Noticias-web">Noticias</a></li>
+        <li class="menu-opciones__elemento"><a href="#Miembros-web">Equipo</a></li>
       </ul>
-      </nav>
     </div>
-    <div class="container">
-      <div class="container__bloques">
-      <div class="bloque1">
-          <a href="#" class="bloque1__thumbnail">
-            <img class="bloque1__img" src="img/ambulance.png" alt="">
+
+      <div class="header-imagen">
+        <img class="header__imagen" src="img/utp.jpg" alt="utp">
+      </div>
+
+    </section>
+
+    <section id="Servicios-web" class="services">
+
+      <div class="servicio">
+        <div class="imagen-servicio">
+            <img class="servicio-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-servicio">
+          <h3 class="texto-servicio__titulo"><a class="texto-servicio__enlace">Populares</a></h3>
+            <p class="texto-servicio__texto">Encuentra aquí los libros más populares de los últimos 5 años del genero fantasía.</p>
+        </div>
+
+      </div>
+
+      <div class="servicio">
+        <div class="imagen-servicio">
+            <img class="servicio-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-servicio">
+          <h3 class="texto-servicio__titulo"><a class="texto-servicio__enlace">Servicio 2</a></h3>
+            <p class="texto-servicio__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+      <div class="servicio">
+        <div class="imagen-servicio">
+            <img class="servicio-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-servicio">
+          <h3 class="texto-servicio__titulo"><a class="texto-servicio__enlace">Servicio 3</a></h3>
+            <p class="texto-servicio__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="Noticias-web" class="news">
+
+      <div class="noticias">
+        <div class="separa-noticias__noticias">
+
+        <div class="imagen-noticias">
+          <a class="noticias-imagen">
+            <img class="noticias-imagen__elemento" src="img/ambulance.png" alt="">
           </a>
-          <div class="bloque1__articulo">
-            <h3 class="bloque1__titulo"> <a href="#" class="bloque1__enlace">Servicio 1</a></h3>
-              <p class="bloque1__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
-          </div>
-      </div>
-      <div class="bloque1">
-            <a href="#" class="bloque1__thumbnail">
-              <img class="bloque1__img" src="img/ambulance.png" alt="">
-            </a>
-            <div class="bloque1__articulo">
-              <h3 class="bloque1__titulo"> <a href="#" class="bloque1__enlace">Servicio 1</a></h3>
-                <p class="bloque1__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
-            </div>
-      </div>
-            <div class="bloque1">
-              <a href="#" class="bloque1__thumbnail">
-                <img class="bloque1__img" src="img/ambulance.png" alt="">
-              </a>
-              <div class="bloque1__articulo">
-                <h3 class="bloque1__titulo"> <a href="#" class="bloque1__enlace">Servicio 1</a></h3>
-                  <p class="bloque1__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
-              </div>
-            </div>
+        </div>
+
+        <div class="texto-noticias">
+          <h3 class="texto-noticias__titulo"><a class="texto-noticias__enlace">Noticia 1</a></h3>
+            <hr style="width: 95%; margin-left: 0%">
+            <p class="texto-noticias__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+        </div>
 
       </div>
 
-    </div>
+      <div class="noticias">
+
+        <div class="separa-noticias__noticias">
+
+        <div class="imagen-noticias">
+          <a class="noticias-imagen">
+            <img class="noticias-imagen__elemento" src="img/ambulance.png" alt="">
+          </a>
+        </div>
+
+        <div class="texto-noticias">
+          <h3 class="texto-noticias__titulo"><a class="texto-noticias__enlace">Noticia 2</a></h3>
+            <hr style="width: 95%; margin-left: 0%">
+            <p class="texto-noticias__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+        </div>
+
+      </div>
+
+      <div class="noticias">
+
+        <div class="separa-noticias__noticias">
+
+        <div class="imagen-noticias">
+          <a class="noticias-imagen">
+            <img class="noticias-imagen__elemento" src="img/ambulance.png" alt="">
+          </a>
+        </div>
+
+        <div class="texto-noticias">
+          <h3 class="texto-noticias__titulo"><a class="texto-noticias__enlace">Noticia 3</a></h3>
+            <hr style="width: 95%; margin-left: 0%">
+            <p class="texto-noticias__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+        </div>
+
+      </div>
+
+      <div class="noticias">
+
+        <div class="separa-noticias__noticias">
+
+        <div class="imagen-noticias">
+          <a class="noticias-imagen">
+            <img class="noticias-imagen__elemento" src="img/ambulance.png" alt="">
+          </a>
+        </div>
+
+        <div class="texto-noticias">
+          <h3 class="texto-noticias__titulo"><a class="texto-noticias__enlace">Noticia 4</a></h3>
+            <hr style="width: 95%; margin-left: 0%">
+            <p class="texto-noticias__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="Miembros-web" class="members">
+
+      <div class="miembros">
+        <div class="imagen-members">
+            <img class="members-imagen__elemento" src="img/ambulance.png" alt="logo">
+        </div>
+
+        <div class="texto-members">
+          <h3 class="texto-members__titulo"><a class="texto-members__enlace">Miembro 1</a></h3>
+            <p class="texto-members__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+      <div class="miembros">
+        <div class="imagen-members">
+            <img class="members-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-members">
+          <h3 class="texto-members__titulo"><a class="texto-members__enlace">Miembro 2</a></h3>
+            <p class="texto-members__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+      <div class="miembros">
+        <div class="imagen-members">
+            <img class="members-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-members">
+          <h3 class="texto-members__titulo"><a class="texto-members__enlace">Miembro 3</a></h3>
+            <p class="texto-members__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+      <div class="miembros">
+        <div class="imagen-members">
+            <img class="members-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-members">
+          <h3 class="texto-members__titulo"><a class="texto-members__enlace">Miembro 4</a></h3>
+            <p class="texto-members__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+      <div class="miembros">
+        <div class="imagen-members">
+            <img class="members-imagen__elemento" src="img/ambulance.png" alt="">
+        </div>
+
+        <div class="texto-members">
+          <h3 class="texto-members__titulo"><a class="texto-members__enlace">Miembro 5</a></h3>
+            <p class="texto-members__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="footer">
+      <div class="pie-de-pagina">
+        <p class="pie-de-pagina__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales rhoncus tellus. Quisque ipsum eros, venenatis a tincidunt quis, lobortis eget mauris. Quisque tincidunt tellus a pellentesque volutpat. Aenean ultricies dapibus maximus. Sed consequat, nisi a sodales commodo, massa nisi fringilla lacus, sagittis maximus quam est tincidunt ipsum. Nullam non consequat odio.</p>
+      </div>
+
+    </section>
+
   </body>
 </html>
