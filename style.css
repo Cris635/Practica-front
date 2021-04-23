@@ -1,13 +1,15 @@
+a:visited{
+  color: blue;
+}
 
 body{
-<<<<<<< Updated upstream
-  width: 1850px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-=======
   margin: 0;
   font-family: "Komika Text";
->>>>>>> Stashed changes
   background: white;
+}
+
+.container{
+  width: 100%;
 }
 
 .header{
@@ -26,13 +28,8 @@ body{
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
-<<<<<<< Updated upstream
-  height: 400px;
-  justify-content: space-between;
-=======
   height: 410px;
   justify-content: space-around;
->>>>>>> Stashed changes
 }
 
 .news{
@@ -42,13 +39,8 @@ body{
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
-<<<<<<< Updated upstream
-  height: 800px;
-  justify-content: space-between;
-=======
   height: 820px;
   justify-content: space-around;
->>>>>>> Stashed changes
 }
 
 .members{
@@ -58,7 +50,7 @@ body{
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
-  height: 500px;
+  height: 550px;
   justify-content: space-between;
 }
 
@@ -81,16 +73,19 @@ body{
   width: 50%;
   height: 40px;
   margin: 0;
-  background: #c7d4e0;
+  color: #f2d0a9;
+  background: #595959;
   justify-content: center;
   align-items: center;
   border-radius: 15px 0 0 0;
+  font-size: 30px;
+  text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
 }
 
 .menu-opciones{
   display: flex;
   justify-content: flex-end;
-  background: #ffcc99;
+  background: #cccccc;
   list-style-type: none;
   margin: 0;
   width: 50%;
@@ -98,8 +93,13 @@ body{
   border-radius: 0 15px 0 0;
 }
 
+.menu-opciones__texto{
+  text-decoration: none;
+}
+
 .menu-opciones__elemento{
-  padding: 10px;
+  padding: 8px;
+  font-size: 20px;
 }
 
 .header-imagen{
@@ -115,7 +115,7 @@ body{
 
 
 .servicio{
-  background: #e3e3e3;
+  background: #f2f2f2;
   width: 610px;
   height: 400px;
   border-radius: 15px;
@@ -125,6 +125,7 @@ body{
 .imagen-servicio{
   height: 200px;
   padding: 0 5px;
+  filter: drop-shadow(0 0 10px black);
 }
 
 .servicio-imagen__elemento{
@@ -136,21 +137,14 @@ body{
   display: flex;
   flex-wrap: wrap;
   height: 200px;
-<<<<<<< Updated upstream
-  padding: 0 5px;
-  align-content: center;
-  justify-content: center;
-=======
   font-size: 20px;
->>>>>>> Stashed changes
 }
 
 .texto-servicio__titulo{
   margin: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 .texto-servicio__enlace{
@@ -158,11 +152,8 @@ body{
 }
 
 .texto-servicio__texto{
-<<<<<<< Updated upstream
-=======
   width: 100%;
   margin: 0;
->>>>>>> Stashed changes
   color: black;
   text-align: center;
 }
@@ -170,7 +161,7 @@ body{
 
 
 .noticias{
-  background: #e3e3e3;
+  background: #cccccc;
   display: flex;
   width: 920px;
   height: 400px;
@@ -216,7 +207,7 @@ body{
 
 
 .miembros{
-  background: #e3e3e3;
+  background: #7f7f7f;
   width: 365px;
   height: 500px;
   border-radius: 15px;
@@ -229,9 +220,7 @@ body{
 
 .members-imagen__elemento{
   width: 100%;
-  align-content: center;
   border-radius: 15px 15px 0 0;
-  
 }
 
 .texto-members{
@@ -243,16 +232,6 @@ body{
 
 .texto-members__titulo{
   text-align: center;
-<<<<<<< Updated upstream
-  color: rgb(0, 0, 0);
-}
-
-.texto-members__texto{
-  height: 30%;
-  margin: 5px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-=======
   font-size: 25px;
 }
 
@@ -260,13 +239,26 @@ body{
   text-align: center;
   font-size: 20px;
   
->>>>>>> Stashed changes
 }
 
 
 .pie-de-pagina{
   width: 100%;
-  background: #e3e3e3;
+  background: #595959;
   text-align: center;
   border-style: groove;
+  color: white;
+  border-radius: 15px;
+}
+
+.Texto-noticias1{
+  height: 500px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.Texto-noticias1__parrafo{
+  vertical-align: middle;
 }
