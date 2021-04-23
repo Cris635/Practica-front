@@ -1,7 +1,12 @@
 
 body{
+<<<<<<< Updated upstream
   width: 1850px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+=======
+  margin: 0;
+  font-family: "Komika Text";
+>>>>>>> Stashed changes
   background: white;
 }
 
@@ -12,18 +17,22 @@ body{
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
-  height: 400px;
+  height: 410px;
 }
 
 .services{
-  display: flex;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
+<<<<<<< Updated upstream
   height: 400px;
   justify-content: space-between;
+=======
+  height: 410px;
+  justify-content: space-around;
+>>>>>>> Stashed changes
 }
 
 .news{
@@ -33,8 +42,13 @@ body{
   display: -ms-flexbox;
   display: -moz-flex;
   display: -webkit-flex;
+<<<<<<< Updated upstream
   height: 800px;
   justify-content: space-between;
+=======
+  height: 820px;
+  justify-content: space-around;
+>>>>>>> Stashed changes
 }
 
 .members{
@@ -89,6 +103,7 @@ body{
 }
 
 .header-imagen{
+  margin: 0 0 5px;
   width: 100%;
 }
 
@@ -121,24 +136,35 @@ body{
   display: flex;
   flex-wrap: wrap;
   height: 200px;
+<<<<<<< Updated upstream
   padding: 0 5px;
   align-content: center;
   justify-content: center;
+=======
+  font-size: 20px;
+>>>>>>> Stashed changes
 }
 
 .texto-servicio__titulo{
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-
 .texto-servicio__enlace{
   font-size: 20pt;
-  color: black;
 }
 
 .texto-servicio__texto{
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+  margin: 0;
+>>>>>>> Stashed changes
   color: black;
+  text-align: center;
 }
 
 
@@ -160,18 +186,20 @@ body{
 
 .imagen-noticias{
   width: 35%;
+  margin: 0;
 }
 
 .noticias-imagen__elemento{
   width: 90%;
   height: 200px;
-  padding: 0;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 15px;
   margin: 0 4px;
 }
 
 .texto-noticias{
+  display: flex;
+  flex-direction: column;
   width: 60%;
   color: rgb(0, 0, 0);
 }
@@ -181,10 +209,9 @@ body{
   color: rgb(0, 0, 0);
 }
 
-.footer-noticia__enlace{
+.noticias__enlace{
   display: flex;
   justify-content: flex-end;
-  color: black;
 }
 
 
@@ -197,29 +224,26 @@ body{
 }
 
 .imagen-members{
-  display: flex;
-  justify-content: center;  
+  width: 100%;
 }
 
 .members-imagen__elemento{
-  object-fit: fill;
   width: 100%;
-  height: 200px;
+  align-content: center;
   border-radius: 15px 15px 0 0;
+  
 }
 
 .texto-members{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  padding: 0 5px;
   height: 300px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 .texto-members__titulo{
   text-align: center;
+<<<<<<< Updated upstream
   color: rgb(0, 0, 0);
 }
 
@@ -228,6 +252,15 @@ body{
   margin: 5px;
   text-align: center;
   color: rgb(0, 0, 0);
+=======
+  font-size: 25px;
+}
+
+.texto-members__texto{
+  text-align: center;
+  font-size: 20px;
+  
+>>>>>>> Stashed changes
 }
 
 
